@@ -1,0 +1,14 @@
+= This is a second test Asciidoc page!
+
+:page-path: /posts/test-page-2
+
+Lorem ipsum dolor sit amet
+
+== Hello World
+
+[source, ruby]
+----
+def hello_world(text)
+  puts text
+end
+----
