@@ -1,8 +1,21 @@
 import * as React from "react"
 import { graphql, PageProps } from "gatsby"
 
-const PostTemplate: React.FC<PageProps> = ({ data }) => {
-  const { asciidoc } = data
+type DataProps = {
+  asciidoc: {
+    html: string
+    _document: {
+      title: string
+      subtitle: string
+      main: string
+    }
+    _pageAttributes: {
+      path: string
+    }
+  }
+}
+
+const PageRoute = ({ data: { asciidoc } }: PageProps<DataProps>) => {
   const { html, _document, _pageAttributes } = asciidoc
 
   return (
@@ -12,7 +25,7 @@ const PostTemplate: React.FC<PageProps> = ({ data }) => {
   )
 }
 
-export default PostTemplate
+export default PageRoute
 
 export const pageQuery = graphql`
   query ($id: String!) {
