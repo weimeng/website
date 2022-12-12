@@ -1,10 +1,12 @@
 import * as React from "react"
 import { graphql, PageProps } from "gatsby"
 
+import Layout from "../components/layout"
+
 type DataProps = {
   asciidoc: {
     html: string
-    _document: {
+    document: {
       title: string
       subtitle: string
       main: string
@@ -16,12 +18,23 @@ type DataProps = {
 }
 
 const PageRoute = ({ data: { asciidoc } }: PageProps<DataProps>) => {
-  const { html, _document, _pageAttributes } = asciidoc
+  const { html, document, _pageAttributes } = asciidoc
 
   return (
-    <div>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    </div>
+    <Layout>
+      <div className="mx-auto sm:w-192">
+        <div className="document">
+          <header>
+            <h1
+              className="document__title"
+              dangerouslySetInnerHTML={{ __html: document.title }}
+            />
+          </header>
+
+          <div className="document__body" dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
+      </div>
+    </Layout>
   )
 }
 

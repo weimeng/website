@@ -1,0 +1,66 @@
+.document {
+  &__body {
+    /* Paragraph & element spacing */
+    p, pre, ol, ul {
+      @apply mb-4;
+    }
+
+    img {
+      @apply my-8;
+    }
+
+    /* Headings */
+    h2, h3, h4, h5, h6 {
+      @apply mb-4 font-semibold;
+    }
+
+    h2 { @apply text-3xl; }
+    h3 { @apply text-2xl; }
+    h4 { @apply text-xl; }
+    h5 { @apply text-lg; }
+    h6 { @apply text-lg font-medium; }
+
+    /* Links */
+    a:link, a:visited {
+      @apply text-blue-400;
+    }
+
+    /* Blockquotes */
+    .quoteblock {
+      @apply border-l-2 border-blue-400 my-8 pl-4;
+
+      blockquote { @apply mb-4; }
+    }
+
+    .verseblock {
+      @apply border-l-2 border-blue-400 my-8 pl-4;
+
+      pre { @apply font-sans; }
+    }
+
+    /* Code blocks */
+    /*
+    pre {
+      @apply bg-black p-4 text-sm text-gray-200;
+    }
+    */
+
+    /* Images */
+    img {
+      @apply mx-auto;
+    }
+
+    /* Lists */
+    ol {
+      @apply ml-8 list-decimal;
+    }
+
+    ul {
+      @apply ml-8 list-disc;
+    }
+  }
+
+  &__title {
+    @apply text-4xl mb-4 font-bold;
+  }
+}

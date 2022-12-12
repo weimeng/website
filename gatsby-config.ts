@@ -14,8 +14,8 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "asciidoc-posts",
-        path: `${__dirname}/src/posts`
+        name: "asciidoc-docs",
+        path: `${__dirname}/src/documents`
       }
     },
     "gatsby-transformer-asciidoc"
