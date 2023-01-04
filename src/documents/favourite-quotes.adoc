@@ -1,7 +1,5 @@
 = Favourite Quotes
 
-:page-path: /favourite-quotes
-
 == Living
 
 [verse, Nick Drake, Cello Song]
