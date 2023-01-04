@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, PageProps } from "gatsby"
+import { graphql, HeadProps, PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -11,14 +11,16 @@ type DataProps = {
       subtitle: string
       main: string
     }
-    _pageAttributes: {
-      path: string
+  }
+  site: {
+    siteMetadata: {
+      title: string
     }
   }
 }
 
 const PageRoute = ({ data: { asciidoc } }: PageProps<DataProps>) => {
-  const { html, document, _pageAttributes } = asciidoc
+  const { html, document } = asciidoc
 
   return (
     <Layout>
@@ -40,6 +42,12 @@ const PageRoute = ({ data: { asciidoc } }: PageProps<DataProps>) => {
 
 export default PageRoute
 
+export function Head(props: HeadProps<DataProps>) {
+  return (
+    <title>{props.data.asciidoc.document.title} · {props.data.site.siteMetadata.title}</title>
+  )
+}
+
 export const pageQuery = graphql`
   query ($id: String!) {
     asciidoc(id: { eq: $id }) {
@@ -49,8 +57,10 @@ export const pageQuery = graphql`
         subtitle
         main
       }
-      pageAttributes {
-        path
+    }
+    site {
+      siteMetadata {
+        title
       }
     }
   }

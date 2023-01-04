@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `My Gatsby Site`,
+    title: `Wei Meng's website`,
     siteUrl: `https://www.yourdomain.tld`
   },
   trailingSlash: `never`,
