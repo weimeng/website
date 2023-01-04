@@ -1,0 +1,11 @@
+navigation:
+  - title: Home
+    path: /
+  - title: Favourite Quotes
+    path: /favourite-quotes
+    navigation:
+      - title: Test
+        path: /test
+        navigation:
+        - title: Test 2
+          path: /test-2
