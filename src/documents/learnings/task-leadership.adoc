@@ -1,0 +1,11 @@
+= Task leadership
+
+There are three kinds of value performing a task creates:
+
+* Instrinsic: The value of the task you perform
+* Instructive: The value of the example of performing the task
+* Investigative: The value of what you learn in performing the task
+
+Every time someone does a task, it will deliver some mix of those three values. For most people, the intrinsic value of the task is the dominating factor. As you get more senior, the weight swings towards instructive.
+
+Source: https://medium.com/hackernoon/how-and-why-should-managers-code-323751799664[Hackernoon - How (and why) should managers code?]

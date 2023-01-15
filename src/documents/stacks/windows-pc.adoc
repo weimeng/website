@@ -1,0 +1,44 @@
+= Windows PC
+
+== Hardware
+
+* *CPU:* AMD Ryzen 5 5600X
+* *Mobo:* Asus Prime X570-Pro
+* *RAM:* 64GB DDR4 3200MHz Crucial Ballistix Sport
+* *GPU:* Pailt JetStream GTX 1080
+* *Case:* Lian Li O11 Dynamic XL Alpine White
+* *Case fans:* Arctic P12 PWM
+* *CPU cooler:* Noctua NH-D15 Chromax.Black
+
+== Software
+
+=== Media
+
+* https://calibre-ebook.com/[Calibre]
+* https://www.sumatrapdfreader.org/[SumatraPDF]
+* https://getmusicbee.com/[MusicBee]
+* https://www.videolan.org/vlc/[VLC Media Player]
+
+=== Development
+
+* http://www.abelhadigital.com/hostsman/[HostsMan]
+* https://learn.microsoft.com/en-us/windows/wsl/install#manual-installation-steps[Windows Subsystem for Linux 2]
+* https://www.microsoft.com/store/productId/9PKR34TNCV07[Kali Linux] (WSL2)
+* https://code.visualstudio.com/[Visual Studio Code]
+* https://www.microsoft.com/store/productId/9N0DX20HK701[Windows Terminal]
+* https://zealdocs.org/[Zeal]
+
+=== Utility
+
+* 1Password
+* 7-Zip
+* https://www.amok.am/de/freeware/amok_exif_sorter/[AmoK Exif Sorter]
+* https://github.com/bank2ynab/bank2ynab[bank2ynab]
+* https://transmissionbt.com/[Transmission]
+* https://www.duplicati.com/[Duplicati 2]
+* https://www.voidtools.com/[Everything]
+* FileZilla
+* PDFsam Basic
+* http://www.jonasjohn.de/lab/red.htm[Remove Empty Directories]
+* https://www.nirsoft.net/utils/search_my_files.html[SearchMyFiles]
+* https://wiztreefree.com/[WizTree]

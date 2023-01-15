@@ -3,9 +3,15 @@ navigation:
     path: /
   - title: Favourite Quotes
     path: /favourite-quotes
+  - title: Learnings
     navigation:
-      - title: Test
-        path: /test
-        navigation:
-        - title: Test 2
-          path: /test-2
+      - title: Growth
+        path: /learnings/growth
+      - title: Diversity, inclusion, belonging
+        path: /learnings/diversity-inclusion-belonging
+      - title: Task leadership
+        path: /learnings/task-leadership
+  - title: Stacks
+    navigation:
+      - title: Windows PC
+        path: /stacks/windows-pc

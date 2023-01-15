@@ -1,7 +1,7 @@
 .document {
   &__body {
     /* Paragraph & element spacing */
-    p, pre, ol, ul {
+    hr, p, pre, ol, ul {
       @apply mb-4;
     }
 
