@@ -1,5 +1,6 @@
 import * as React from "react"
 import { graphql, HeadProps, PageProps } from "gatsby"
+import Prism from "prismjs"
 
 import Layout from "../components/layout"
 
@@ -21,6 +22,10 @@ type DataProps = {
 
 const PageRoute = ({ data: { asciidoc } }: PageProps<DataProps>) => {
   const { html, document } = asciidoc
+
+  React.useEffect(() => {
+    Prism.highlightAll()
+  })
 
   return (
     <Layout>
