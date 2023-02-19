@@ -1,0 +1,9 @@
+= Support
+
+== Metrics
+
+* Average Speed of Answer (ASA) / First Response Time (FRT): Time between ticket creation and first response.
+* Next Response Time (NRT): Keeps customers feeling like there is progress
+* Time To Resolution (TTR): Makes sure that customer issues are getting resolved in a timely manner
+* Average Handle Time (AHT): Looks at how long resolution takes, starting after the first response.
+* First Contact Resolution (FCR): Tracking for the premise that the happiest a customer can be is to have their problem solved in the first response.

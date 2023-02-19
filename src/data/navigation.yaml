@@ -3,15 +3,35 @@ navigation:
     path: /
   - title: Favourite Quotes
     path: /favourite-quotes
+  - title: Interests
+    navigation:
+      - title: Gaming
+        path: /interests/gaming
+      - title: Python
+        path: /interests/python
   - title: Learnings
     navigation:
-      - title: Growth
-        path: /learnings/growth
+      - title: Business leadership
+        path: /learnings/business-leadership
       - title: Diversity, inclusion, belonging
         path: /learnings/diversity-inclusion-belonging
+      - title: Growth
+        path: /learnings/growth
+      - title: People management
+        path: /learnings/people-management
+      - title: Product management
+        path: /learnings/product-management
+      - title: Support
+        path: /learnings/support
       - title: Task leadership
         path: /learnings/task-leadership
   - title: Stacks
     navigation:
       - title: Windows PC
         path: /stacks/windows-pc
+  - title: In Review
+    navigation:
+      - title: 2020
+        path: /in-review/2020
+      - title: 2021
+        path: /in-review/2021

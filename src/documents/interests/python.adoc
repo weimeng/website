@@ -1,0 +1,98 @@
+= Python
+
+Build dependencies:
+
+[source,shell]
+----
+build-essential
+libbz2-dev
+libffi-dev
+liblzma-dev
+libreadline-dev
+libssl-dev
+libsqlite3-dev
+zlib1g-dev
+----
+
+== Python for data science
+
+=== numpy
+
+[source,python]
+----
+import numpy as np
+
+np.array()
+
+np.logical_and()
+np.logical_or()
+np.logical_not()
+
+np.nditer(my_array)
+----
+
+=== matplotlib
+
+[source,python]
+----
+import matplotlib.pyplot as plt
+
+plt.plot(x, y)
+plt.scatter(x, y)
+
+# Histogram. Default bins is 10
+plt.hist(x)
+
+# Labels
+plt.xlabel('X-axis Label')
+plt.ylabel('Y-axis Label')
+plt.title('Plot title')
+plt.text(x, y, 'Point label')
+
+# Axes
+plt.yticks([0, 2, 4, ..., 10],         # ticks
+           ['0', '2', '4', ..., '10']) # tick labels
+
+# Grid
+plt.gird(True)
+
+# Show plot
+plt.show()
+
+# Clear plot
+plt.clf()
+----
+
+=== pandas
+
+[source,python]
+----
+import pandas as pd
+
+# Create dataframe from dictionary
+df = pd.DataFrame(dict)
+df.index = ["Label A", "Label B"]
+
+# Create datafrom from CSV
+df = pd.read_csv("path/to/data.csv", index_col = 0)
+
+# Select column as series
+df["column_name"]
+
+# Select column as dataframe
+df[["column_name"]]
+
+# Select rows by slice
+df[1:4] # start inclusive, end exclusive
+
+# Select by label
+df.loc["row_name"] # series
+df.loc[[:, ["column_name", "column_name"]] # dataframe
+
+# Select by position
+df.iloc[[1, 2, 3], [0, 1]]
+
+# Iteration
+for label, row in df.iterrows():
+    ...
+----
