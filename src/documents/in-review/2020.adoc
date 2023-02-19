@@ -1,0 +1,27 @@
+= 2020 in review
+
+== Creativity
+
+=== Software
+
+* Open-sourced my first software: https://github.com/curaga/curaga[curaga]
+* Learned how to use https://prosemirror.net/[prosemirror]
+
+=== Writing
+
+* Updated my website to use curaga and document my knowledge
+* Started using Twitter again for low-effort microblogging
+* Did my first https://twitter.com/weimeng/status/1279724232297943041[tweetstorm]
+
+== Entertainment
+
+* 100% achievements in https://steamcommunity.com/id/matafleur/stats/333980/[AKIBA'S TRIP] (PC)
+* 100% achievements in https://steamcommunity.com/id/matafleur/stats/105600/[Terraria] (PC)
+* 100% achievements in https://steamcommunity.com/id/matafleur/stats/812810/achievements/[missed messages.] (PC)
+* Completed Streets of Rage 4 (https://steamcommunity.com/id/matafleur/stats/985890/[PC] & Nintendo Switch)
+* Completed https://steamcommunity.com/id/matafleur/stats/387290/[Ori and the Blind Forest: Definitive Edition] (PC)
+* Completed Paper Mario: The Origami King (Nintendo Switch)
+* Completed https://steamcommunity.com/id/matafleur/stats/bastion[Bastion] (PC)
+* Completed https://steamcommunity.com/id/matafleur/stats/appid/295790/achievements[Never Alone (Kisima Ingitchuna)] (PC)
+* Completed Beyond Good & Evil (PC)
+* Played Animal Crossing: New Horizons (Nintendo Switch)

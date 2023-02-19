@@ -1,0 +1,44 @@
+= Gaming
+
+== Windows
+
+=== Game disappears but doesn't crash when alt-tabbing
+
+. Hit Windows Button.
+. Search (start typing) for "Multitasking Settings" and click it.
+. Under "Virtual Desktops" change both settings to "All Desktops"
+
+Credit: https://www.reddit.com/r/MCCPC/comments/ktqg0g/game_disappears_but_doesnt_crash_when_you_alttab/[Game Disappears but doesn't crash when you Alt-Tab? : MCCPC (reddit.com)]
+
+=== Teredo
+
+Diagnosis
+
+[source,shell]
+----
+netsh interface Teredo show state
+----
+
+To fix "client is in a managed network":
+
+[source,shell]
+----
+netsh interface Teredo set state enterpriseclient
+----
+
+== Games
+
+=== Forza Horizon 4
+
+Fix constant disconnects:
+
+[source,shell]
+----
+netsh int ipv6 set teredo client teredo.trex.fi
+----
+
+Credit: https://www.reddit.com/r/forza/comments/hwzl7a/for_those_having_connectivity_issues/[For those having connectivity issues : forza (reddit.com)]
+
+Tuning guides:
+
+* https://atribecalledcars.com/gaming/racing-games/forza-horizon-4-tuning-guide[Forza Horizon 4 tuning guide: Ultimate OP edition | A Tribe Called Cars]

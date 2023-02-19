@@ -1,5 +1,0 @@
-= This is a test Asciidoc page!
-
-:page-path: /posts/test-page
-
-Lorem ipsum dolor sit amet
