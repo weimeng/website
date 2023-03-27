@@ -14,14 +14,14 @@ const Sidebar = () => {
         </h2>
 
         <button
-          className="flex-shrink uppercase sm:hidden btn p-0 px-1 js__namespace-menu-btn"
+          className="flex-shrink uppercase sm:hidden btn p-0 px-1"
           onClick={ () => toggleSmMenu(!smMenuExpanded) }
         >
           Menu
         </button>
       </div>
 
-      <div className={`${ smMenuExpanded ? "" : "hidden" } sm:block js__namespace-menu`}>
+      <div className={`${ !smMenuExpanded && "hidden" } sm:block`}>
         <NavigationList navItems={navData.navigation} />
       </div>
     </aside>
