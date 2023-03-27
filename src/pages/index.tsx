@@ -47,4 +47,9 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Hi, I'm Wei Meng · Wei Meng's website</title>
+export const Head: HeadFC = () => (
+  <>
+    <title>Hi, I'm Wei Meng · Wei Meng's website</title>
+    <body className="bg-gray-900" />
+  </>
+)
