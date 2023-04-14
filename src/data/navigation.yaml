@@ -27,6 +27,8 @@ navigation:
         path: /learnings/task-leadership
   - title: Stacks
     navigation:
+      - title: Linux
+        path: /stacks/linux
       - title: Windows PC
         path: /stacks/windows-pc
   - title: In Review
