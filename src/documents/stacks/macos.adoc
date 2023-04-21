@@ -1,0 +1,27 @@
+= macOS
+
+== Development
+
+* https://github.com/kovidgoyal/kitty[kitty]: Terminal emulator
++
+[source,shell]
+----
+brew install --cask kitty
+----
+
+* https://code.visualstudio.com/[Visual Studio Code]: Code editor
++
+[source,shell]
+----
+brew install --cask visual-studio-code
+----
+
+== Utility
+
+* https://github.com/waydabber/BetterDisplay[BetterDisplay]: Fix font rendering
+  on non-HiDPI displays. Requires restart to take effect.
++
+[source,shell]
+----
+brew install --cask betterdisplay
+----

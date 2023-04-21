@@ -27,10 +27,12 @@ navigation:
         path: /learnings/task-leadership
   - title: Stacks
     navigation:
-      - title: Linux
-        path: /stacks/linux
       - title: Windows PC
         path: /stacks/windows-pc
+      - title: Linux
+        path: /stacks/linux
+      - title: macOS
+        path: /stacks/macos
   - title: In Review
     navigation:
       - title: 2020
