@@ -18,6 +18,7 @@ Source: https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-d
 ----
 winget install Microsoft.WindowsTerminal
 ----
+** https://github.com/g-e-o-m-e-t-r-i-c/tokyonight-windows-terminal[Tokyo Night colour scheme]
 
 * https://code.visualstudio.com/[Visual Studio Code]: code editor
 +
