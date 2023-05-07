@@ -29,6 +29,8 @@ navigation:
     navigation:
       - title: Windows PC
         path: /stacks/windows-pc
+      - title: Windows dev env
+        path: /stacks/windows-dev
       - title: Linux
         path: /stacks/linux
       - title: macOS

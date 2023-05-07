@@ -21,12 +21,7 @@
 
 === Development
 
-* http://www.abelhadigital.com/hostsman/[HostsMan]
-* https://learn.microsoft.com/en-us/windows/wsl/install#manual-installation-steps[Windows Subsystem for Linux 2]
-* https://www.microsoft.com/store/productId/9PKR34TNCV07[Kali Linux] (WSL2)
-* https://code.visualstudio.com/[Visual Studio Code]
-* https://www.microsoft.com/store/productId/9N0DX20HK701[Windows Terminal]
-* https://zealdocs.org/[Zeal]
+See: link:windows-dev[Windows development environment]
 
 === Utility
 
@@ -41,4 +36,6 @@
 * PDFsam Basic
 * http://www.jonasjohn.de/lab/red.htm[Remove Empty Directories]
 * https://www.nirsoft.net/utils/search_my_files.html[SearchMyFiles]
+* https://www.microsoft.com/store/productId/9NBLGGH4NNS1[Windows Package Manager CLI (`winget`)]
+  ** https://github.com/microsoft/winget-pkgs[Windows Package Manager Community Repository]
 * https://wiztreefree.com/[WizTree]

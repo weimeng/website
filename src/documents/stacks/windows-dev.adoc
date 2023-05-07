@@ -1,0 +1,87 @@
+= Windows development environment
+
+== Setup
+
+Enable Developer Mode:
+
+. Search for `developer` and click on "Developer settings"
+. Enable the "Developer Mode" toggle
+
+Source: https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development[Enable development mode]
+(required for xref:_install_node_js_with_volta[Volta])
+
+== Toolchain
+
+* https://github.com/microsoft/terminal[Windows Terminal]: terminal emulator
++
+[source,powershell]
+----
+winget install Microsoft.WindowsTerminal
+----
+
+* https://code.visualstudio.com/[Visual Studio Code]: code editor
++
+[source,powershell]
+----
+winget install Microsoft.VisualStudioCode
+----
+
+* https://zealdocs.org/[Zeal]: offline docs browser
++
+[source,powershell]
+----
+winget install OlegShparber.Zeal
+----
+
+* https://github.com/oldj/SwitchHosts[SwitchHosts]: hosts manager
++
+[source,powershell]
+----
+winget install oldj.switchhosts
+----
+
+== Git
+
+Install https://git-scm.com/download/win[Git for Windows]:
+
+[source,powershell]
+----
+winget install Git.Git
+----
+
+Generate SSH key:
+
+[source,powershell]
+----
+ssh-keygen -t ed25519 -C "your_email@example.com"
+----
+
+Copy public key file contents to clipboard:
+
+[source,powershell]
+----
+Get-Content ~/.ssh/id_ed25519.pub | Set-Clipboard
+----
+
+== Node.js
+
+=== Install Node.js with Volta
+
+Install https://volta.sh/[Volta]:
+
+[source,powershell]
+----
+winget install Volta.Volta
+----
+
+Install latest https://nodejs.org/[Node.js] LTS release:
+
+[source,powershell]
+----
+volta install node
+----
+
+== Windows Subsystem for Linux
+
+* https://learn.microsoft.com/en-us/windows/wsl/install#manual-installation-steps[Windows Subsystem for Linux 2]
+* https://www.microsoft.com/store/productId/9PKR34TNCV07[Kali Linux] (WSL2)
