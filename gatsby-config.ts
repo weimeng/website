@@ -15,6 +15,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-PGVTC7T",
+        defaultDataLayer: {},
         enableWebVitalsTracking: true
       }
     },
