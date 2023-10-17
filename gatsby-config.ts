@@ -11,6 +11,13 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-PGVTC7T",
+        enableWebVitalsTracking: true
+      }
+    },
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",
