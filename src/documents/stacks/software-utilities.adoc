@@ -1,0 +1,56 @@
+= Software Utilities
+:toc:
+
+== Downloaders
+
+=== gallery-dl
+
+==== Install
+
+[source,shell]
+----
+winget install mikf.gallery-dl
+----
+
+==== Usage
+
+[source,shell]
+----
+gallery-dl --filename "{num:>03} - {filename}.{extension}" --cbz https://example.com/url
+----
+
+=== yt-dlp
+
+https://github.com/yt-dlp/yt-dlp[yt-dlp]
+
+==== Install
+
+[source,shell]
+----
+winget install yt-dlp.yt-dlp
+----
+
+[source,shell]
+----
+pip install --upgrade yt-dlp
+----
+
+== Media
+
+=== ffmpeg
+
+==== Usage
+
+[source,shell]
+----
+for a in ./*.flac; do
+  ffmpeg -i "$f" -ab 320k -map_metadata 0 -id3v2_version 3 "${f[@]/%flac/mp3}";
+done
+----
+
+[source,shell]
+----
+for f in ./*.m4a; do
+  ffmpeg -i "$f" -vsync 0 -acodec libmp3lame -ab 320k -map_metadata 0 -id3v2_version 3 "${f%.m4a}.mp3";
+done
+----

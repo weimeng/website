@@ -27,12 +27,12 @@ navigation:
         path: /learnings/task-leadership
   - title: Stacks
     navigation:
+      - title: Software Utilities
+        path: /stacks/software-utilities
       - title: Windows PC
         path: /stacks/windows-pc
       - title: Windows dev env
         path: /stacks/windows-dev
-      - title: Linux
-        path: /stacks/linux
       - title: macOS
         path: /stacks/macos
   - title: In Review
