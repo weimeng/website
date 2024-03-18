@@ -71,7 +71,7 @@ Sacrifice is a choice you make; loss is a choice made for you.
 Words can have different interpretations. What one says isn't the whole truth. It's a human weakness. They test others to confirm their own existence. It's a contradiction
 
 [verse, 'JJ Lin (林俊杰)', '不为谁而作的歌 (Twilight)']
-----
+____
 梦为努力浇了水
 爱在背后往前推
 当我抬起头才发觉
@@ -82,7 +82,7 @@ Words can have different interpretations. What one says isn't the whole truth. I
 一定有个人  他
 躲过 避过 闪过 瞒过
 他是谁
-----
+____
 
 == How to teach
 
