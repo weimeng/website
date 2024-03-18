@@ -1,29 +1,37 @@
 = Favourite Quotes
+:toc:
 
-== Living
+== How to live
 
-[verse, Nick Drake, Cello Song]
-So forget this cruel world
-where I belong
-I'll just sit and wait
-and sing my song.
-
-[verse, Seikilos epitaph]
+[verse, 'https://en.wikipedia.org/wiki/Seikilos_epitaph[Seikilos epitaph]']
 While you live, shine
 have no grief at all
 life only exists for a short while
 and time demands an end.
 
-[quote, 'Alan Watts, British philosopher']
-Better to have a short life that is full of what you like doing, than a long life that is spent in a miserable way.
-
-[quote, Solid Snake,Metal Gear Solid 2: Sons of Liberty]
-We can tell other people about having faith. What we had had faith in. What we found important enough to fight for. *It's not whether you were right or wrong, but how much faith you were willing to have: that decides the future.*
+[verse, Harry Chapin, I Wonder What Would Happen To This World]
+Oh if a man tried
+To take his time on Earth
+And prove before he died
+What one man's life could be worth
+Well I wonder what would happen
+to this world
 
 [verse, Hardwell (feat. Matthew Koma), Dare You]
 Let your heart be your religion
 Let it break you out of this prison you became
 It's not too late.
+
+[verse, Dave Matthews Band, The Space Between]
+The space between
+what's wrong and right
+is where you'll find me hiding, waiting for you.
+
+[quote, 'Alan Watts, British philosopher']
+Better to have a short life that is full of what you like doing, than a long life that is spent in a miserable way.
+
+[quote, Solid Snake, 'https://youtu.be/I5AunfmI8bs?t=18280[Metal Gear Solid 2: Sons of Liberty]']
+We can tell other people about having faith. What we had had faith in. What we found important enough to fight for. *It's not whether you were right or wrong, but how much faith you were willing to have: that decides the future.*
 
 [quote, Kamina, Tenga Toppa Gurren Lagann]
 Don't be distracted by the what-ifs, should-haves, and if-onlys. The one path you choose yourself — that is the truth of your universe.
@@ -31,14 +39,8 @@ Don't be distracted by the what-ifs, should-haves, and if-onlys. The one path yo
 [quote, Naruto Uzumaki, Naruto: Shippuden (Ch. 647)]
 I refuse to leave behind any regrets… I don't wanna look back and think, 'what might have been'!!!
 
-[quote, Itachi Uchiha, Naruto: Shippuden (Ch. 508)]
-We don't know what kind of people we truly are until the moment before our deaths. As death comes to embrace you, you will realise what you are. That is what death is, don't you think?
-
 [quote, Amelia Croft, Rise of the Tomb Raider]
 You become who you are through your choices, through the love you give and the promises you keep.
-
-[quote, Robert G. Ingersoll]
-Nothing discloses real character like the use of power. It is easy for the weak to be gentle. Most people can bear adversity. *But if you wish to know what a man really is, give him power. This is the supreme test.* It is the glory of Lincoln that, having almost absolute power, he never abused it, except on the side of mercy.
 
 [quote, Unknown]
 Only fools let compliments get to their heads and criticism get to their heart.
@@ -46,29 +48,23 @@ Only fools let compliments get to their heads and criticism get to their heart.
 [quote, Graham Crossford, Octopath Traveler]
 For life is a journey. The places you go… The deeds you do… The tales whose hero you become… Every road is yours to take. So journey forth, friend, into this great world we live in… and find an adventure all your own.
 
-== Practice
-
-[quote, Bob Ross, 'The Joy of Painting, https://www.youtube.com/watch?v=GARWowi0QXI&t=783s[Meadow Lake, Season 2, Episode 1]']
-Talent is a pursued interest. In other words, anything that you're willing to practise, you can can do.
+== How to create
 
 [quote, Linds Redding, 'https://web.archive.org/web/20160816090956/http://www.lindsredding.com/2012/03/11/a-overdue-lesson-in-perspective/[A Short Lesson in Perspective]']
 To start the day with nothing, and to end it with something that didn't exist yesterday is a wondrous and magical thing. It never gets old. Making shit. That's where the fun is. And the wonder. And the glory.
 
-== Work
+[quote, Bob Ross, 'The Joy of Painting, https://www.youtube.com/watch?v=GARWowi0QXI&t=783s[Meadow Lake, Season 2, Episode 1]']
+Talent is a pursued interest. In other words, anything that you're willing to practise, you can can do.
 
-[quote, Elon Musk, 'https://arstechnica.com/science/2020/03/inside-elon-musks-plan-to-build-one-starship-a-week-and-settle-mars/[_Inside Elon Musk’s plan to build one Starship a week—and settle Mars_], Ars Technica']
-If you email me directly, and if I buy off on the risk, then it’s OK. What’s not OK is they think that the weld is not good, they don’t tell me, they take it to the pad and blow it up. Now I have been clear. There’s plenty of forgiveness if you pass me the buck. There is no forgiveness if you don’t.
-
-== Mentoring/Parenting
+== How to teach
 
 [quote, Yoda, Star Wars: The Last Jedi]
 Heeded my words not, did you? Pass on what you have learned. Strength, mastery. But weakness, folly, failure also. Yes, failure most of all. *The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.*
 
-[quote, Kobe Bryant, 'https://www.theplayerstribune.com/en-us/articles/kobe-bryant-letter-to-my-younger-self[Letter to My Younger Self]']
-You will come to understand that you were taking care of them because it made YOU feel good, it made YOU happy to see them smiling and without a care in the world — and that was extremely selfish of you. While you were feeling satisfied with yourself, you were slowly eating away at their own dreams and ambitions. You were adding material things to their lives, but subtracting the most precious gifts of all: independence and growth.
+[quote, Anton Ego, Ratatouille]
+In many ways, the work of a critic is easy. We risk very little, yet enjoy a position over those who offer up their work and their selves to our judgement. We thrive on negative criticism, which is fun to write and to read. But the bitter truth we critics must face is that, in the grand scheme of things, the average piece of junk is probably more meaningful than our criticism designating it so. But there are times when a critic truly risks something, and that is in the discovery and defense of the new. The world is often unkind to new talent, new creations. The new needs friends.
 
-[quote, Catherine M. Wallace]
-Listen earnestly to anything [your children] want to tell you, no matter what. If you don't listen eagerly to the little stuff when they are little, they won't tell you the big stuff when they are big, because to them all of it has always been big stuff.
+== How to parent
 
 [verse, 'https://www.youtube.com/watch?v=cJW5n8f0Z9o[Della\'s Moon Lullaby]', DuckTales]
 Look to the stars my darling baby boys
@@ -78,41 +74,50 @@ Face each new sun with eyes clear and true
 Unafraid of the unknown
 Because I'll face it all with you.
 
-== Life
+[quote, Catherine M. Wallace]
+Listen earnestly to anything [your children] want to tell you, no matter what. If you don't listen eagerly to the little stuff when they are little, they won't tell you the big stuff when they are big, because to them all of it has always been big stuff.
 
-[quote, Conrad Roth, Tomb Raider (2013)]
-Sacrifice is a choice you make; loss is a choice made for you.
+[quote, Kobe Bryant, 'https://www.theplayerstribune.com/en-us/articles/kobe-bryant-letter-to-my-younger-self[Letter to My Younger Self]']
+You will come to understand that you were taking care of them because it made YOU feel good, it made YOU happy to see them smiling and without a care in the world — and that was extremely selfish of you. While you were feeling satisfied with yourself, you were slowly eating away at their own dreams and ambitions. You were adding material things to their lives, but subtracting the most precious gifts of all: independence and growth.
 
-[quote, Harry Chapin, Taxi Sequel]
-We talked 'cause talking tells you things like what you really are thinking about / but *sometimes you can't find what you're feeling 'til all the words run out.*
+== How to do things
 
 [quote, Robert Frobisher, Cloud Atlas (movie)]
 All boundaries are conventions, waiting to be transcended. One may transcend any convention, if only one can first conceive of doing so.
 
-[quote, Dave Matthews Band, The Space Between]
-The space between / what's wrong and right / is where you'll find me hiding, waiting for you.
-
-[quote, Roy Batty, Blade Runner]
-I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. *All those moments will be lost in time, like tears in rain.* Time to die.
+[quote, Conrad Roth, Tomb Raider (2013)]
+Sacrifice is a choice you make; loss is a choice made for you.
 
 [quote, 'Martin Luther King, Jr.']
 The ultimate weakness of violence is that it is a descending spiral, begetting the very thing it seeks to destroy. Instead of diminishing evil, it multiplies it. Through violence you may murder the liar, but you cannot murder the lie, nor establish the truth. Through violence you murder the hater, but you do not murder hate. In fact, violence merely increases hate… Returning violence for violence multiplies violence, adding deeper darkness to a night already devoid of stars. *Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.*
 
+[quote, Robert G. Ingersoll, 'https://archive.org/details/abrahamlincolnle00inge/page/52/mode/2up[Abraham Lincoln, A Lecture (1895)]']
+Nothing discloses real character like the use of power. It is easy for the weak to be gentle. Most people can bear adversity. But if you wish to know what a man really is, give him power. This is the supreme test. It is the glory of Lincoln that, having almost absolute power, he never abused it, except on the side of mercy.
+
+[quote, Elon Musk, 'https://arstechnica.com/science/2020/03/inside-elon-musks-plan-to-build-one-starship-a-week-and-settle-mars/[_Inside Elon Musk’s plan to build one Starship a week—and settle Mars_], Ars Technica']
+If you email me directly, and if I buy off on the risk, then it’s OK. What’s not OK is they think that the weld is not good, they don’t tell me, they take it to the pad and blow it up. Now I have been clear. There’s plenty of forgiveness if you pass me the buck. There is no forgiveness if you don’t.
+
+== How to feel
+
+[quote, Harry Chapin, Sequel]
+We talked 'cause talking tells you things like what you really are thinking about / but *sometimes you can't find what you're feeling 'til all the words run out.*
+
 [quote, René Leriche, 'La philosophie de la chirurgie, 1951']
 Every surgeon carries within himself a small cemetery, where from time to time he goes to pray — a place of bitterness and regret, where he must look for an explanation for his failures.
 
-== Others
+== How to die
 
-[quote, Anton Ego, Ratatouille]
-In many ways, the work of a critic is easy. We risk very little, yet enjoy a position over those who offer up their work and their selves to our judgement. We thrive on negative criticism, which is fun to write and to read. But the bitter truth we critics must face is that, in the grand scheme of things, the average piece of junk is probably more meaningful than our criticism designating it so. But there are times when a critic truly risks something, and that is in the discovery and defense of the new. The world is often unkind to new talent, new creations. The new needs friends.
-
-[verse, Harry Chapin, I wonder What Would Happen To This World]
-Oh if a man tried
-To take his time on Earth
-And prove before he died
-What one man's life could be worth
-I wonder what would happen
-to this world
+[verse, Nick Drake, Cello Song]
+So forget this cruel world
+where I belong
+I'll just sit and wait
+and sing my song.
 
 [quote, 'Poor Jerusalem, Jesus Christ Superstar']
-To conquer death you only have to die.
+To conquer death you only have to die. You only have to die.
+
+[quote, Itachi Uchiha, Naruto: Shippuden (Ch. 508)]
+We don't know what kind of people we truly are until the moment before our deaths. As death comes to embrace you, you will realise what you are. That is what death is, don't you think?
+
+[quote, Roy Batty, Blade Runner]
+I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. *All those moments will be lost in time, like tears in rain.* Time to die.
