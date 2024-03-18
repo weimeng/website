@@ -56,7 +56,38 @@ To start the day with nothing, and to end it with something that didn't exist ye
 [quote, Bob Ross, 'The Joy of Painting, https://www.youtube.com/watch?v=GARWowi0QXI&t=783s[Meadow Lake, Season 2, Episode 1]']
 Talent is a pursued interest. In other words, anything that you're willing to practise, you can can do.
 
+== How to understand
+
+[quote, Søren Kierkegaard]
+Life can only be understood backwards; but it must be lived forwards.
+
+[quote, Robert Frobisher, Cloud Atlas (movie)]
+All boundaries are conventions, waiting to be transcended. One may transcend any convention, if only one can first conceive of doing so.
+
+[quote, Conrad Roth, Tomb Raider (2013)]
+Sacrifice is a choice you make; loss is a choice made for you.
+
+[quote, Cattleya Baudelaire, 'Violet Evergarden, Episode 2']
+Words can have different interpretations. What one says isn't the whole truth. It's a human weakness. They test others to confirm their own existence. It's a contradiction
+
+[verse, 'JJ Lin (林俊杰)', '不为谁而作的歌 (Twilight)']
+----
+梦为努力浇了水
+爱在背后往前推
+当我抬起头才发觉
+我是不是忘了谁
+
+累到整月不能睡
+夜色哪里都是美
+一定有个人  他
+躲过 避过 闪过 瞒过
+他是谁
+----
+
 == How to teach
+
+[quote, Robin Wall Kimmerer, 'Braiding Sweetgrass: Indigenous Wisdom, Scientic Knowledge and the Teaching of Plants']
+This is our work, to discover what we can give. Isn't this the purpose of education, to learn the nature of your own gifts and how to use them for good in the world?
 
 [quote, Yoda, Star Wars: The Last Jedi]
 Heeded my words not, did you? Pass on what you have learned. Strength, mastery. But weakness, folly, failure also. Yes, failure most of all. *The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.*
@@ -82,11 +113,8 @@ You will come to understand that you were taking care of them because it made YO
 
 == How to do things
 
-[quote, Robert Frobisher, Cloud Atlas (movie)]
-All boundaries are conventions, waiting to be transcended. One may transcend any convention, if only one can first conceive of doing so.
-
-[quote, Conrad Roth, Tomb Raider (2013)]
-Sacrifice is a choice you make; loss is a choice made for you.
+[quote, Maya Angelou]
+I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.
 
 [quote, 'Martin Luther King, Jr.']
 The ultimate weakness of violence is that it is a descending spiral, begetting the very thing it seeks to destroy. Instead of diminishing evil, it multiplies it. Through violence you may murder the liar, but you cannot murder the lie, nor establish the truth. Through violence you murder the hater, but you do not murder hate. In fact, violence merely increases hate… Returning violence for violence multiplies violence, adding deeper darkness to a night already devoid of stars. *Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.*
@@ -94,16 +122,25 @@ The ultimate weakness of violence is that it is a descending spiral, begetting t
 [quote, Robert G. Ingersoll, 'https://archive.org/details/abrahamlincolnle00inge/page/52/mode/2up[Abraham Lincoln, A Lecture (1895)]']
 Nothing discloses real character like the use of power. It is easy for the weak to be gentle. Most people can bear adversity. But if you wish to know what a man really is, give him power. This is the supreme test. It is the glory of Lincoln that, having almost absolute power, he never abused it, except on the side of mercy.
 
+[quote, Stilgar, 'Dune, Frank Herbert']
+A leader, you see, is one of the things that distinguishes a mob from a people. He maintains the level of individuals. Too few individuals, and a people reverts to a mob.
+
 [quote, Elon Musk, 'https://arstechnica.com/science/2020/03/inside-elon-musks-plan-to-build-one-starship-a-week-and-settle-mars/[_Inside Elon Musk’s plan to build one Starship a week—and settle Mars_], Ars Technica']
 If you email me directly, and if I buy off on the risk, then it’s OK. What’s not OK is they think that the weld is not good, they don’t tell me, they take it to the pad and blow it up. Now I have been clear. There’s plenty of forgiveness if you pass me the buck. There is no forgiveness if you don’t.
 
 == How to feel
+
+[quote, Proverbs 4:23 (NIV)]
+Above all else, guard your heart, for everything you do flows from it.
 
 [quote, Harry Chapin, Sequel]
 We talked 'cause talking tells you things like what you really are thinking about / but *sometimes you can't find what you're feeling 'til all the words run out.*
 
 [quote, René Leriche, 'La philosophie de la chirurgie, 1951']
 Every surgeon carries within himself a small cemetery, where from time to time he goes to pray — a place of bitterness and regret, where he must look for an explanation for his failures.
+
+[quote, Iroh, Avatar the Last Airbender]
+Pride is not the opposite of shame, but its source. True humility is the only antidote to shame.
 
 == How to die
 
