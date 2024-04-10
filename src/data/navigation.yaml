@@ -41,3 +41,5 @@ navigation:
         path: /in-review/2020
       - title: 2021
         path: /in-review/2021
+      - title: 2024
+        path: /in-review/2024
