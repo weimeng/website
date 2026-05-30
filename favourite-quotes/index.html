@@ -1,0 +1,416 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.8.0"/><style data-href="/styles.89a29162804dfaddd803.css" data-identity="gatsby-global-css">/*
+! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
+*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}html{-webkit-text-size-adjust:100%;font-feature-settings:normal;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.document__body hr,.document__body ol,.document__body p,.document__body pre,.document__body ul{margin-bottom:1rem}.document__body img{margin-bottom:2rem;margin-top:2rem}.document__body h2,.document__body h3,.document__body h4,.document__body h5,.document__body h6{font-weight:600;margin-bottom:1rem}.document__body h2{font-size:1.875rem;line-height:2.25rem}.document__body h3{font-size:1.5rem;line-height:2rem}.document__body h4{font-size:1.25rem;line-height:1.75rem}.document__body h5,.document__body h6{font-size:1.125rem;line-height:1.75rem}.document__body h6{font-weight:500}.document__body a:link,.document__body a:visited{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity))}.document__body .quoteblock{--tw-border-opacity:1;border-color:rgb(96 165 250/var(--tw-border-opacity));border-left-width:2px;margin-bottom:2rem;margin-top:2rem;padding-left:1rem}.document__body .quoteblock blockquote{margin-bottom:1rem}.document__body .verseblock{--tw-border-opacity:1;border-color:rgb(96 165 250/var(--tw-border-opacity));border-left-width:2px;margin-bottom:2rem;margin-top:2rem;padding-left:1rem}.document__body .verseblock pre{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}.document__body img{margin-left:auto;margin-right:auto}.document__body ol{list-style-type:decimal;margin-left:2rem}.document__body ul{list-style-type:disc;margin-left:2rem}.document__title{font-size:2.25rem;font-weight:700;line-height:2.5rem;margin-bottom:1rem}.fixed{position:fixed}.mx-auto{margin-left:auto;margin-right:auto}.ml-4{margin-left:1rem}.flex{display:flex}.hidden{display:none}.w-full{width:100%}.flex-auto{flex:1 1 auto}.flex-shrink{flex-shrink:1}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.p-6{padding:1.5rem}.p-3{padding:.75rem}.p-0{padding:0}.px-1{padding-left:.25rem;padding-right:.25rem}.pt-20{padding-top:5rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.uppercase{text-transform:uppercase}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}@media (min-width:640px){.sm\:static{position:static}.sm\:mb-2{margin-bottom:.5rem}.sm\:block{display:block}.sm\:table{display:table}.sm\:table-cell{display:table-cell}.sm\:table-row{display:table-row}.sm\:hidden{display:none}.sm\:h-screen{height:100vh}.sm\:w-full{width:100%}.sm\:w-72{width:18rem}.sm\:w-192{width:48rem}.sm\:pt-6{padding-top:1.5rem}}div.code-toolbar{position:relative}div.code-toolbar>.toolbar{opacity:0;position:absolute;right:.2em;top:.3em;transition:opacity .3s ease-in-out;z-index:10}div.code-toolbar:hover>.toolbar{opacity:1}div.code-toolbar:focus-within>.toolbar{opacity:1}div.code-toolbar>.toolbar>.toolbar-item{display:inline-block}div.code-toolbar>.toolbar>.toolbar-item>a{cursor:pointer}div.code-toolbar>.toolbar>.toolbar-item>button{background:none;border:0;color:inherit;font:inherit;line-height:normal;overflow:visible;padding:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}div.code-toolbar>.toolbar>.toolbar-item>a,div.code-toolbar>.toolbar>.toolbar-item>button,div.code-toolbar>.toolbar>.toolbar-item>span{background:#f5f2f0;background:hsla(0,0%,88%,.2);border-radius:.5em;box-shadow:0 2px 0 0 rgba(0,0,0,.2);color:#bbb;font-size:.8em;padding:0 .5em}div.code-toolbar>.toolbar>.toolbar-item>a:focus,div.code-toolbar>.toolbar>.toolbar-item>a:hover,div.code-toolbar>.toolbar>.toolbar-item>button:focus,div.code-toolbar>.toolbar>.toolbar-item>button:hover,div.code-toolbar>.toolbar>.toolbar-item>span:focus,div.code-toolbar>.toolbar>.toolbar-item>span:hover{color:inherit;text-decoration:none}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:none;color:#ccc;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;-webkit-hyphens:none;hyphens:none;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style><script data-gatsby="web-vitals-polyfill">
+              !function(){var e,t,n,i,r={passive:!0,capture:!0},a=new Date,o=function(){i=[],t=-1,e=null,f(addEventListener)},c=function(i,r){e||(e=r,t=i,n=new Date,f(removeEventListener),u())},u=function(){if(t>=0&&t<n-a){var r={entryType:"first-input",name:e.type,target:e.target,cancelable:e.cancelable,startTime:e.timeStamp,processingStart:e.timeStamp+t};i.forEach((function(e){e(r)})),i=[]}},s=function(e){if(e.cancelable){var t=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?function(e,t){var n=function(){c(e,t),a()},i=function(){a()},a=function(){removeEventListener("pointerup",n,r),removeEventListener("pointercancel",i,r)};addEventListener("pointerup",n,r),addEventListener("pointercancel",i,r)}(t,e):c(t,e)}},f=function(e){["mousedown","keydown","touchstart","pointerdown"].forEach((function(t){return e(t,s,r)}))},p="hidden"===document.visibilityState?0:1/0;addEventListener("visibilitychange",(function e(t){"hidden"===document.visibilityState&&(p=t.timeStamp,removeEventListener("visibilitychange",e,!0))}),!0);o(),self.webVitals={firstInputPolyfill:function(e){i.push(e),u()},resetFirstInputPolyfill:o,get firstHiddenTime(){return p}}}();
+            </script><script>window.dataLayer = window.dataLayer || [];window.dataLayer.push({}); (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer', 'GTM-PGVTC7T');</script><title data-gatsby-head="true">Favourite Quotes · Wei Meng&#x27;s website</title></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGVTC7T" height="0" width="0" style="display: none; visibility: hidden" aria-hidden="true"></iframe></noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="sm:table sm:h-screen sm:w-full"><div class="sm:table-row"><aside class="fixed w-full sm:static sm:table-cell sm:w-72 bg-black text-gray-500 p-3 sm:p-"><div class="flex"><h2 class="text-xl uppercase font-bold sm:mb-2 flex-auto">Wei Meng&#x27;s Website</h2><button class="flex-shrink uppercase sm:hidden btn p-0 px-1">Menu</button></div><div class="hidden sm:block"><ul class="ml-4"><li><a href="/" class="false">Home</a></li><li><a href="/favourite-quotes" class="false">Favourite Quotes</a></li><li><a class="font-bold">Interests</a><ul class="ml-4"><li><a href="/interests/gaming" class="false">Gaming</a></li><li><a href="/interests/python" class="false">Python</a></li></ul></li><li><a class="font-bold">Learnings</a><ul class="ml-4"><li><a href="/learnings/business-leadership" class="false">Business leadership</a></li><li><a href="/learnings/diversity-inclusion-belonging" class="false">Diversity, inclusion, belonging</a></li><li><a href="/learnings/growth" class="false">Growth</a></li><li><a href="/learnings/people-management" class="false">People management</a></li><li><a href="/learnings/product-management" class="false">Product management</a></li><li><a href="/learnings/support" class="false">Support</a></li><li><a href="/learnings/task-leadership" class="false">Task leadership</a></li></ul></li><li><a class="font-bold">Stacks</a><ul class="ml-4"><li><a href="/stacks/software-utilities" class="false">Software Utilities</a></li><li><a href="/stacks/windows-pc" class="false">Windows PC</a></li><li><a href="/stacks/windows-dev" class="false">Windows dev env</a></li><li><a href="/stacks/macos" class="false">macOS</a></li></ul></li><li><a class="font-bold">In Review</a><ul class="ml-4"><li><a href="/in-review/2020" class="false">2020</a></li><li><a href="/in-review/2021" class="false">2021</a></li><li><a href="/in-review/2024" class="false">2024</a></li></ul></li></ul></div></aside><div class="sm:table-cell bg-gray-900 text-gray-200 pt-20 p-6 sm:pt-6"><div class="mx-auto sm:w-192"><div class="document"><header><h1 class="document__title">Favourite Quotes</h1></header><div class="document__body"><div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_how_to_live">How to live</a></li>
+<li><a href="#_how_to_create">How to create</a></li>
+<li><a href="#_how_to_understand">How to understand</a></li>
+<li><a href="#_how_to_teach">How to teach</a></li>
+<li><a href="#_how_to_parent">How to parent</a></li>
+<li><a href="#_how_to_do_things">How to do things</a></li>
+<li><a href="#_how_to_feel">How to feel</a></li>
+<li><a href="#_how_to_lead">How to lead</a></li>
+<li><a href="#_how_to_die">How to die</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_how_to_live">How to live</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content">While you live, shine
+have no grief at all
+life only exists for a short while
+and time demands an end.</pre>
+<div class="attribution">
+&#8212; <a href="https://en.wikipedia.org/wiki/Seikilos_epitaph">Seikilos epitaph</a>
+</div>
+</div>
+<div class="verseblock">
+<pre class="content">Oh if a man tried
+To take his time on Earth
+And prove before he died
+What one man&#8217;s life could be worth
+Well I wonder what would happen
+to this world</pre>
+<div class="attribution">
+&#8212; Harry Chapin<br>
+<cite>I Wonder What Would Happen To This World</cite>
+</div>
+</div>
+<div class="verseblock">
+<pre class="content">Let your heart be your religion
+Let it break you out of this prison you became
+It&#8217;s not too late.</pre>
+<div class="attribution">
+&#8212; Hardwell (feat. Matthew Koma)<br>
+<cite>Dare You</cite>
+</div>
+</div>
+<div class="verseblock">
+<pre class="content">The space between
+what&#8217;s wrong and right
+is where you&#8217;ll find me hiding, waiting for you.</pre>
+<div class="attribution">
+&#8212; Dave Matthews Band<br>
+<cite>The Space Between</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Better to have a short life that is full of what you like doing, than a long life that is spent in a miserable way.
+</blockquote>
+<div class="attribution">
+&#8212; Alan Watts, British philosopher
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+We can tell other people about having faith. What we had had faith in. What we found important enough to fight for. <strong>It&#8217;s not whether you were right or wrong, but how much faith you were willing to have: that decides the future.</strong>
+</blockquote>
+<div class="attribution">
+&#8212; Solid Snake<br>
+<cite><a href="https://youtu.be/I5AunfmI8bs?t=18280">Metal Gear Solid 2: Sons of Liberty</a></cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Don&#8217;t be distracted by the what-ifs, should-haves, and if-onlys. The one path you choose yourself — that is the truth of your universe.
+</blockquote>
+<div class="attribution">
+&#8212; Kamina<br>
+<cite>Tenga Toppa Gurren Lagann</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+I refuse to leave behind any regrets… I don&#8217;t wanna look back and think, 'what might have been'!!!
+</blockquote>
+<div class="attribution">
+&#8212; Naruto Uzumaki<br>
+<cite>Naruto: Shippuden (Ch. 647)</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+You become who you are through your choices, through the love you give and the promises you keep.
+</blockquote>
+<div class="attribution">
+&#8212; Amelia Croft<br>
+<cite>Rise of the Tomb Raider</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Only fools let compliments get to their heads and criticism get to their heart.
+</blockquote>
+<div class="attribution">
+&#8212; Unknown
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+For life is a journey. The places you go… The deeds you do… The tales whose hero you become… Every road is yours to take. So journey forth, friend, into this great world we live in… and find an adventure all your own.
+</blockquote>
+<div class="attribution">
+&#8212; Graham Crossford<br>
+<cite>Octopath Traveler</cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_create">How to create</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+To start the day with nothing, and to end it with something that didn&#8217;t exist yesterday is a wondrous and magical thing. It never gets old. Making shit. That&#8217;s where the fun is. And the wonder. And the glory.
+</blockquote>
+<div class="attribution">
+&#8212; Linds Redding<br>
+<cite><a href="https://web.archive.org/web/20160816090956/http://www.lindsredding.com/2012/03/11/a-overdue-lesson-in-perspective/">A Short Lesson in Perspective</a></cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Talent is a pursued interest. In other words, anything that you&#8217;re willing to practise, you can can do.
+</blockquote>
+<div class="attribution">
+&#8212; Bob Ross<br>
+<cite>The Joy of Painting, <a href="https://www.youtube.com/watch?v=GARWowi0QXI&amp;t=783s">Meadow Lake, Season 2, Episode 1</a></cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_understand">How to understand</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+Life can only be understood backwards; but it must be lived forwards.
+</blockquote>
+<div class="attribution">
+&#8212; Søren Kierkegaard
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+All boundaries are conventions, waiting to be transcended. One may transcend any convention, if only one can first conceive of doing so.
+</blockquote>
+<div class="attribution">
+&#8212; Robert Frobisher<br>
+<cite>Cloud Atlas (movie)</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Sacrifice is a choice you make; loss is a choice made for you.
+</blockquote>
+<div class="attribution">
+&#8212; Conrad Roth<br>
+<cite>Tomb Raider (2013)</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Words can have different interpretations. What one says isn&#8217;t the whole truth. It&#8217;s a human weakness. They test others to confirm their own existence. It&#8217;s a contradiction
+</blockquote>
+<div class="attribution">
+&#8212; Cattleya Baudelaire<br>
+<cite>Violet Evergarden, Episode 2</cite>
+</div>
+</div>
+<div class="verseblock">
+<pre class="content">梦为努力浇了水
+爱在背后往前推
+当我抬起头才发觉
+我是不是忘了谁
+
+累到整月不能睡
+夜色哪里都是美
+一定有个人  他
+躲过 避过 闪过 瞒过
+他是谁</pre>
+<div class="attribution">
+&#8212; JJ Lin (林俊杰)<br>
+<cite>不为谁而作的歌 (Twilight)</cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_teach">How to teach</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+This is our work, to discover what we can give. Isn&#8217;t this the purpose of education, to learn the nature of your own gifts and how to use them for good in the world?
+</blockquote>
+<div class="attribution">
+&#8212; Robin Wall Kimmerer<br>
+<cite>Braiding Sweetgrass: Indigenous Wisdom, Scientic Knowledge and the Teaching of Plants</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Heeded my words not, did you? Pass on what you have learned. Strength, mastery. But weakness, folly, failure also. Yes, failure most of all. <strong>The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.</strong>
+</blockquote>
+<div class="attribution">
+&#8212; Yoda<br>
+<cite>Star Wars: The Last Jedi</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+In many ways, the work of a critic is easy. We risk very little, yet enjoy a position over those who offer up their work and their selves to our judgement. We thrive on negative criticism, which is fun to write and to read. But the bitter truth we critics must face is that, in the grand scheme of things, the average piece of junk is probably more meaningful than our criticism designating it so. But there are times when a critic truly risks something, and that is in the discovery and defense of the new. The world is often unkind to new talent, new creations. The new needs friends.
+</blockquote>
+<div class="attribution">
+&#8212; Anton Ego<br>
+<cite>Ratatouille</cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_parent">How to parent</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content">Look to the stars my darling baby boys
+Life is strange and vast
+Filled with wonders and joys.
+Face each new sun with eyes clear and true
+Unafraid of the unknown
+Because I&#8217;ll face it all with you.</pre>
+<div class="attribution">
+&#8212; <a href="https://www.youtube.com/watch?v=cJW5n8f0Z9o">Della&#8217;s Moon Lullaby</a><br>
+<cite>DuckTales</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Listen earnestly to anything [your children] want to tell you, no matter what. If you don&#8217;t listen eagerly to the little stuff when they are little, they won&#8217;t tell you the big stuff when they are big, because to them all of it has always been big stuff.
+</blockquote>
+<div class="attribution">
+&#8212; Catherine M. Wallace
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+You will come to understand that you were taking care of them because it made YOU feel good, it made YOU happy to see them smiling and without a care in the world — and that was extremely selfish of you. While you were feeling satisfied with yourself, you were slowly eating away at their own dreams and ambitions. You were adding material things to their lives, but subtracting the most precious gifts of all: independence and growth.
+</blockquote>
+<div class="attribution">
+&#8212; Kobe Bryant<br>
+<cite><a href="https://www.theplayerstribune.com/en-us/articles/kobe-bryant-letter-to-my-younger-self">Letter to My Younger Self</a></cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_do_things">How to do things</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+I&#8217;ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.
+</blockquote>
+<div class="attribution">
+&#8212; Maya Angelou
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+The ultimate weakness of violence is that it is a descending spiral, begetting the very thing it seeks to destroy. Instead of diminishing evil, it multiplies it. Through violence you may murder the liar, but you cannot murder the lie, nor establish the truth. Through violence you murder the hater, but you do not murder hate. In fact, violence merely increases hate… Returning violence for violence multiplies violence, adding deeper darkness to a night already devoid of stars. <strong>Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.</strong>
+</blockquote>
+<div class="attribution">
+&#8212; Martin Luther King, Jr.
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Nothing discloses real character like the use of power. It is easy for the weak to be gentle. Most people can bear adversity. But if you wish to know what a man really is, give him power. This is the supreme test. It is the glory of Lincoln that, having almost absolute power, he never abused it, except on the side of mercy.
+</blockquote>
+<div class="attribution">
+&#8212; Robert G. Ingersoll<br>
+<cite><a href="https://archive.org/details/abrahamlincolnle00inge/page/52/mode/2up">Abraham Lincoln, A Lecture (1895)</a></cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+A leader, you see, is one of the things that distinguishes a mob from a people. He maintains the level of individuals. Too few individuals, and a people reverts to a mob.
+</blockquote>
+<div class="attribution">
+&#8212; Stilgar<br>
+<cite>Dune, Frank Herbert</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+If you email me directly, and if I buy off on the risk, then it’s OK. What’s not OK is they think that the weld is not good, they don’t tell me, they take it to the pad and blow it up. Now I have been clear. There’s plenty of forgiveness if you pass me the buck. There is no forgiveness if you don’t.
+</blockquote>
+<div class="attribution">
+&#8212; Elon Musk<br>
+<cite><a href="https://arstechnica.com/science/2020/03/inside-elon-musks-plan-to-build-one-starship-a-week-and-settle-mars/"><em>Inside Elon Musk’s plan to build one Starship a week—and settle Mars</em></a>, Ars Technica</cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_feel">How to feel</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+Above all else, guard your heart, for everything you do flows from it.
+</blockquote>
+<div class="attribution">
+&#8212; Proverbs 4:23 (NIV)
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+We talked 'cause talking tells you things like what you really are thinking about / but <strong>sometimes you can&#8217;t find what you&#8217;re feeling 'til all the words run out.</strong>
+</blockquote>
+<div class="attribution">
+&#8212; Harry Chapin<br>
+<cite>Sequel</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Every surgeon carries within himself a small cemetery, where from time to time he goes to pray — a place of bitterness and regret, where he must look for an explanation for his failures.
+</blockquote>
+<div class="attribution">
+&#8212; René Leriche<br>
+<cite>La philosophie de la chirurgie, 1951</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+Pride is not the opposite of shame, but its source. True humility is the only antidote to shame.
+</blockquote>
+<div class="attribution">
+&#8212; Iroh<br>
+<cite>Avatar the Last Airbender</cite>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_lead">How to lead</h2>
+<div class="sectionbody">
+<div class="quoteblock">
+<blockquote>
+Your first and foremost job as a leader is to take charge of your own energy and then help to orchestrate the energy of those around you.
+</blockquote>
+<div class="attribution">
+&#8212; Peter R. Drucker
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_die">How to die</h2>
+<div class="sectionbody">
+<div class="verseblock">
+<pre class="content">So forget this cruel world
+where I belong
+I&#8217;ll just sit and wait
+and sing my song.</pre>
+<div class="attribution">
+&#8212; Nick Drake<br>
+<cite>Cello Song</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+To conquer death you only have to die. You only have to die.
+</blockquote>
+<div class="attribution">
+&#8212; Poor Jerusalem, Jesus Christ Superstar
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+We don&#8217;t know what kind of people we truly are until the moment before our deaths. As death comes to embrace you, you will realise what you are. That is what death is, don&#8217;t you think?
+</blockquote>
+<div class="attribution">
+&#8212; Itachi Uchiha<br>
+<cite>Naruto: Shippuden (Ch. 508)</cite>
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+I&#8217;ve seen things you people wouldn&#8217;t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. <strong>All those moments will be lost in time, like tears in rain.</strong> Time to die.
+</blockquote>
+<div class="attribution">
+&#8212; Roy Batty<br>
+<cite>Blade Runner</cite>
+</div>
+</div>
+</div>
+</div></div></div></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/favourite-quotes";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-d676e7dca1dcef3b6c56.js\"],\"component---src-pages-404-tsx\":[\"/component---src-pages-404-tsx-5886ec032d60b4be9668.js\"],\"component---src-pages-asciidoc-fields-path-tsx\":[\"/component---src-pages-asciidoc-fields-path-tsx-ad6626ad39fc9e4f12cb.js\"],\"component---src-pages-index-tsx\":[\"/component---src-pages-index-tsx-0f090ae9fcef27b64826.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="cd8aee37a523e3f75615";</script><script src="/webpack-runtime-3ef93495e574441300c9.js" async></script><script src="/framework-106eaf75e588fec2b76f.js" async></script><script src="/app-d676e7dca1dcef3b6c56.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
