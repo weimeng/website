@@ -1,6 +1,73 @@
-@import "tailwindcss/base";
+@import "tailwindcss";
 
-@import "tailwindcss/components";
-@import "./components/documents.scss";
+@layer components {
+  .document__body {
+    /* Paragraph & element spacing */
+    hr, p, pre, ol, ul {
+      margin-bottom: --spacing(4);
+    }
 
-@import "tailwindcss/utilities";
+    /* Headings */
+    h2, h3, h4, h5, h6 {
+      margin-bottom: --spacing(4);
+      font-weight: var(--font-weight-semibold);
+    }
+
+    h2 { font-size: var(--text-3xl); }
+    h3 { font-size: var(--text-2xl); }
+    h4 { font-size: var(--text-xl); }
+    h5 { font-size: var(--text-lg); }
+    h6 { font-size: var(--text-lg); font-weight: var(--font-weight-medium); }
+
+    /* Links */
+    a:link, a:visited {
+      color: var(--color-blue-400);
+    }
+
+    /* Blockquotes */
+    .quoteblock, .verseblock {
+      border-left-width: 2px;
+      border-color: var(--color-blue-400);
+      margin: --spacing(8) 0;
+      padding-left: --spacing(4);
+    }
+    
+    .quoteblock {
+      blockquote { margin-bottom: --spacing(4); }
+    }
+
+    .verseblock {
+      pre { font-family: var(--font-sans); }
+    }
+
+    /* Code blocks */
+    pre.shiki {
+      padding: --spacing(4);
+      font-size: var(--text-sm);
+      overflow-x: auto;
+    }
+
+    /* Images */
+    img {
+      margin-inline: auto;
+      margin-block: --spacing(8);
+    }
+
+    /* Lists */
+    ol {
+      margin-left: --spacing(8);
+      list-style-type: decimal;
+    }
+
+    ul {
+      margin-left: --spacing(8);
+      list-style-type: disc;
+    }
+  }
+
+  .document__title {
+    font-size: var(--text-4xl);
+    margin-bottom: --spacing(4);
+    font-weight: var(--font-weight-bold);
+  }
+}

@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Sidebar from "../components/Sidebar.astro";
+---
+
+<BaseLayout title="Hi, I'm Wei Meng">
+	<Sidebar slot="sidebar" />
+	<div class="mx-auto sm:w-192">
+		<div class="document">
+			<header>
+				<h1 class="document__title">Hi, I'm Wei Meng</h1>
+			</header>
+			<div class="document__body">
+				<p>Find me around the web</p>
+				<ul>
+					<li><a href="https://twitter.com/weimeng">Twitter</a></li>
+					<li>
+						<a href="https://www.linkedin.com/in/weimeng/">LinkedIn</a>
+					</li>
+					<li><a href="https://github.com/weimeng">GitHub</a></li>
+					<li><a href="https://gitlab.com/weimeng">GitLab</a></li>
+					<li>
+						<a href="https://www.goodreads.com/weimeng">Goodreads</a>
+					</li>
+				</ul>
+				<p>
+					This website is built with <a href="https://astro.build/">Astro</a>.
+				</p>
+			</div>
+		</div>
+	</div>
+</BaseLayout>

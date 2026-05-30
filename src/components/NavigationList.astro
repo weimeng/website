@@ -1,0 +1,28 @@
+---
+import type { NavigationItem } from "../lib/navigation";
+import NavigationList from "./NavigationList.astro";
+
+interface Props {
+	navItems: NavigationItem[];
+}
+
+const { navItems } = Astro.props;
+---
+
+<ul class="ml-4">
+	{
+		navItems.map((navItem) => (
+			<li>
+				<a
+					href={navItem.path}
+					class:list={[navItem.navigation && "font-bold"]}
+				>
+					{navItem.title}
+				</a>
+				{navItem.navigation && (
+					<NavigationList navItems={navItem.navigation} />
+				)}
+			</li>
+		))
+	}
+</ul>

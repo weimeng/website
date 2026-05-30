@@ -1,0 +1,39 @@
+---
+import { getCollection, getEntry, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Sidebar from "../components/Sidebar.astro";
+
+export async function getStaticPaths() {
+	const docs = await getCollection("documents");
+	return docs.map((doc) => ({
+		params: { slug: doc.id },
+	}));
+}
+
+const { slug } = Astro.params;
+if (!slug) {
+	return Astro.redirect("/404");
+}
+
+const entry = await getEntry("documents", slug);
+if (!entry) {
+	return Astro.redirect("/404");
+}
+
+const { Content } = await render(entry);
+const { title } = entry.data;
+---
+
+<BaseLayout title={title}>
+	<Sidebar slot="sidebar" />
+	<div class="mx-auto sm:w-192">
+		<div class="document">
+			<header>
+				<h1 class="document__title">{title}</h1>
+			</header>
+			<div class="document__body">
+				<Content />
+			</div>
+		</div>
+	</div>
+</BaseLayout>

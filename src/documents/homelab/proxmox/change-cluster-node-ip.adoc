@@ -1,0 +1,42 @@
+= Change Proxmox Cluster Node IP
+
+https://pve.proxmox.com/wiki/Cluster_Manager#_preparing_nodes
+
+First, install Proxmox VE on all nodes. Make sure that each node is installed with the final hostname and IP configuration. Changing the hostname and IP is not possible after cluster creation.
+
+/etc/pve/corosync.conf
+
+`change nodelist.node.ring0_addr` as appropriate
+increment `totem.config_version` by 1
+
+/etc/network/interfaces
+
+Change vmbr0 entry `address` and `gateway` as appropriate.
+
+/etc/hosts
+
+Change ip address in.
+
+Change
+
+/etc/pve/priv/known_hosts
+
+for SSH connection between nodes.
+
+chmod: changing permissions of '/etc/pve/priv/known_hosts': Operation not permitted
+
+pvecm status
+
+pvecm expected 1
+
+
+Sources
+
+
+-
+Change Cluster Nodes IP Addresses
+https://forum.proxmox.com/threads/change-cluster-nodes-ip-addresses.33406/
+
+-
+[SOLVED] Problem permission /etc/pve/nodes
+https://forum.proxmox.com/threads/problem-permission-etc-pve-nodes.26999/#post-135822

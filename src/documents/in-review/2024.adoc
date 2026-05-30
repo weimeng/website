@@ -11,9 +11,36 @@ New:
 * Palworld (Xbox Game Pass, Steam)
 * Gris (Xbox Game Pass)
 * Cocoon (100%) (Xbox Game Pass)
+* Evil West (Xbox Game Pass)
+* Noita (Steam)
+* Dinkum (Steam)
+* HoloCure - Save the Fans! (Steam)
+* Balatro (Steam)
+* Sky: Children of the Light (Steam)
 
 Continue:
 
 * Exoprimal (Xbox Game Pass)
 * Octopath Traveler II (Steam)
 * Lonely Mountains: Downhill (Xbox Game Pass)
+
+==== Xbox Game Pass Ultimate
+
+Purchased 13 months of Xbox Game Pass Ultimate for SGD 69.90 through Carousell. From 15 June 2024 to 15 July 2025.
+
+:fn-steam-price: footnote:disclaimer[Price on Steam]
+
+[cols="1,1", options="header,footer"]
+|===
+| Game
+| Value
+
+| Chants of Senaar
+| SGD 23.90{fn-steam-price}
+
+| Open Roads
+| SGD 21.00{fn-steam-price}
+
+| Total value
+| SGD 44.90
+|===

@@ -3,6 +3,8 @@ navigation:
     path: /
   - title: Favourite Quotes
     path: /favourite-quotes
+  - title: Home Lab
+    path: /homelab
   - title: Interests
     navigation:
       - title: Gaming
@@ -13,7 +15,7 @@ navigation:
     navigation:
       - title: Business leadership
         path: /learnings/business-leadership
-      - title: Diversity, inclusion, belonging
+      - title: Diversity, inclusion & belonging
         path: /learnings/diversity-inclusion-belonging
       - title: Growth
         path: /learnings/growth

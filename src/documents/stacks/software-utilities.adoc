@@ -7,6 +7,7 @@
 
 ==== Install
 
+.Windows
 [source,shell]
 ----
 winget install mikf.gallery-dl
